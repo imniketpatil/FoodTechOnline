@@ -14,7 +14,9 @@ const Footer = () => {
               src="https://img.freepik.com/premium-vector/food-tech-logo-design-with-creative-concept-premium-vector_632138-168.jpg"
               alt="Company name"
             /> */}
-            <h1 className="text-3xl font-bold">Food Tech Online</h1>
+            <Link to="/">
+              <h1 className="text-3xl font-bold">Food Tech Online</h1>
+            </Link>
             <p className="text-sm leading-6 text-gray-600">
               Making Food Tech look better to the world
             </p>
