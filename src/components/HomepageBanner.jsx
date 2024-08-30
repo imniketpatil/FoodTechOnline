@@ -67,9 +67,19 @@ export default function HomepageBanner() {
                 </svg>
                 <div>
                   <div className="text-sm font-semibold text-left">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.androkode.android.foodtechquiz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></a>
                     GET IT ON
                   </div>
                   <div className="text-lg font-semibold text-left">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.androkode.android.foodtechquiz"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    ></a>
                     Google Play
                   </div>
                 </div>
