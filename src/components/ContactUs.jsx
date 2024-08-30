@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function ContactUs() {
   const [agreed, setAgreed] = useState(false);
@@ -97,7 +98,7 @@ export default function ContactUs() {
               Phone number
             </label>
             <div className="relative mt-2.5">
-              <div className="absolute inset-y-0 left-0 flex items-center">
+              {/* <div className="absolute inset-y-0 left-0 flex items-center">
                 <label htmlFor="country" className="sr-only">
                   Country
                 </label>
@@ -110,7 +111,7 @@ export default function ContactUs() {
                   <option>CA</option>
                   <option>EU</option>
                 </select>
-              </div>
+              </div> */}
               <input
                 id="phone-number"
                 name="phone-number"
@@ -148,9 +149,11 @@ export default function ContactUs() {
             </div>
             <label className="text-sm leading-6 text-gray-600">
               By selecting this, you agree to our{" "}
-              <a href="#" className="font-semibold text-indigo-600">
-                privacy&nbsp;policy
-              </a>
+              <Link to="/privacypolicy">
+                <span className="font-semibold text-indigo-600">
+                  privacy&nbsp;policy
+                </span>
+              </Link>
               .
             </label>
           </div>
