@@ -74,11 +74,6 @@ function MobileDetailsOne() {
                     staying motivated.
                   </li>
                 </ul>
-                <div className="mt-4 text-base md:text-lg">
-                  <strong>Course Duration:</strong> 15 hours and 40 minutes
-                  <br />
-                  <strong>Pricing:</strong> ₹999 after a 50% discount
-                </div>
               </section>
 
               {/* FSSAI Junior Analyst & Food Analyst Exam Course Section */}

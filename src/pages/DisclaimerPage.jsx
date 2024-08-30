@@ -1,19 +1,19 @@
 import React, { useEffect } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import TermsAndConditionsComponent from "../components/TermsAndConditionsComponent";
+import Disclaimer from "../components/Disclaimer";
 
-function TermsOfUse() {
+function DisclaimerPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <>
       <NavBar />
-      <TermsAndConditionsComponent />
+      <Disclaimer />
       <Footer />
     </>
   );
 }
 
-export default TermsOfUse;
+export default DisclaimerPage;

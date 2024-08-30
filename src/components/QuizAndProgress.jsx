@@ -4,7 +4,7 @@ function QuizAndProgress() {
   return (
     <div className="relative flex flex-col lg:flex-row max-w-screen-xl mx-auto px-3 lg:px-6 space-y-6 lg:space-y-0 lg:space-x-6">
       {/* MCQs Section */}
-      <section className="p-6 bg-gray-100 rounded-lg shadow-md mb-6 lg:mb-0 flex-1">
+      <section className="p-6 bg-gray-100 rounded-lg  mb-6 lg:mb-0 flex-1">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 md:text-3xl">
           Multiple-Choice Questions (MCQs)
         </h2>
@@ -28,7 +28,7 @@ function QuizAndProgress() {
       </section>
 
       {/* Progress Tracking Section */}
-      <section className="p-6 bg-gray-100 rounded-lg shadow-md flex-1">
+      <section className="p-6 bg-gray-100 rounded-lg  flex-1">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 md:text-3xl">
           Progress Tracking
         </h2>

@@ -6,7 +6,7 @@ const Footer = () => {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32  ">
+      <div className="mx-auto max-w-7xl px-3 pb-4 pt-8 sm:pt-8 lg:px-8 lg:pt-16  ">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             {/* <img
@@ -26,22 +26,33 @@ const Footer = () => {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>
                     <Link to="/termsofuse">
-                      <span href="#" className="hover:text-gray-900">
-                        Terms of Use
-                      </span>
+                      <span className="hover:text-gray-900">Terms of Use</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/refundcancellationpolicy">
-                      <span href="#" className="hover:text-gray-900">
+                      <span className="hover:text-gray-900">
                         Refund & Cancellation Policy
                       </span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/privacypolicy">
-                      <span href="#" className="hover:text-gray-900">
+                      <span className="hover:text-gray-900">
                         Privacy Policy
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/disclaimer">
+                      <span className="hover:text-gray-900">Disclaimer</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/shippinganddeliverypolicy">
+                      <span className="hover:text-gray-900">
+                        {" "}
+                        Shipping and Delivery Policy
                       </span>
                     </Link>
                   </li>

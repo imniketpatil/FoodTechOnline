@@ -272,10 +272,10 @@ const PrivacyPolicyComponent = () => {
         If you have any questions about this Privacy Policy, please contact us
         at{" "}
         <a
-          href="mailto:contact@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          contact@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         .
       </p>

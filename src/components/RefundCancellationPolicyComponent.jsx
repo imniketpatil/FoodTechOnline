@@ -14,10 +14,10 @@ const RefundCancellationPolicyComponent = () => {
         If you need to cancel your enrollment or make any changes, please
         contact us via email at{" "}
         <a
-          href="mailto:support@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          support@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         . Refunds will be processed according to the policies detailed below. We
         are committed to providing a 100% Satisfaction Guarantee with all our
@@ -86,10 +86,10 @@ const RefundCancellationPolicyComponent = () => {
       <p className="mb-4 text-gray-700 leading-relaxed">
         To extend access to an e-learning program by one month, please email{" "}
         <a
-          href="mailto:support@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          support@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         . Extensions will be granted at no extra cost for up to one month. For
         extensions beyond one month, a fee of 50% of the course price will
@@ -103,10 +103,10 @@ const RefundCancellationPolicyComponent = () => {
         All requests for cancellations, rescheduling, or substitutions must be
         sent via email to{" "}
         <a
-          href="mailto:support@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          support@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         . Refunds will not be issued if course materials have been accessed or
         downloaded. Refunds will be processed within 10-15 business days of the
@@ -136,10 +136,10 @@ const RefundCancellationPolicyComponent = () => {
         If you have any questions about this Refund & Cancellation Policy,
         please contact us at{" "}
         <a
-          href="mailto:support@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          support@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         .
       </p>

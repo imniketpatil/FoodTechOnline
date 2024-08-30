@@ -182,10 +182,10 @@ const TermsAndConditionsComponent = () => {
       <p className="text-gray-700 leading-relaxed">
         If you have any questions about these Terms, please contact us at{" "}
         <a
-          href="mailto:contact@foodtechonline.com"
+          href="mailto:foodtechonline2022@gmail.com"
           className="text-blue-600 hover:underline"
         >
-          contact@foodtechonline.com
+          foodtechonline2022@gmail.com
         </a>
         .
       </p>

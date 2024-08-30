@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { StrictMode, useEffect } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RefundCancellationPolicy from "./pages/RefundCancellationPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
+import DisclaimerPage from "./pages/DisclaimerPage";
+import PageNotFound from "./components/PageNotFound";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path: "/termsofuse",
     element: <TermsOfUse />,
+  },
+  {
+    path: "/disclaimer",
+    element: <DisclaimerPage />,
+  },
+  {
+    path: "/shippinganddeliverypolicy",
+    element: <PageNotFound />,
   },
 ]);
 createRoot(document.getElementById("root")).render(

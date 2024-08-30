@@ -1,5 +1,5 @@
 import React from "react";
-import image5 from "../assets/Pixel True Mockup.png";
+import image5 from "../assets/Pixel True Mockup (7).png";
 
 function FeedbackAndFAQs() {
   return (
@@ -12,7 +12,6 @@ function FeedbackAndFAQs() {
               <h1 className="text-4xl font-bold text-gray-900 mb-2">
                 Feedback & FAQs
               </h1>
-              <div className="absolute inset-x-0 bottom-0 h-1 bg-blue-500 rounded-full"></div>
             </div>
             <p className="text-gray-700 text-lg md:text-xl mb-4">
               Share your feedback or get answers to frequently asked questions

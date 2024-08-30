@@ -4,7 +4,7 @@ function TempComponent() {
   return (
     <div className="relative flex flex-col lg:flex-row max-w-screen-xl mx-auto px-6 lg:px-12 space-y-6 lg:space-y-0 lg:space-x-6">
       {/* Exam Preparation Section */}
-      <section className="p-6 bg-gray-100 rounded-lg shadow-md mb-6 lg:mb-0 flex-1">
+      <section className="p-6 bg-gray-100 rounded-lg mb-6 lg:mb-0 flex-1">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 md:text-3xl">
           Exam Preparation
         </h2>
@@ -29,7 +29,7 @@ function TempComponent() {
       </section>
 
       {/* Food Chemistry Topics Section */}
-      <section className="p-6 bg-gray-100 rounded-lg shadow-md flex-1">
+      <section className="p-6 bg-gray-100 rounded-lg flex-1">
         <h2 className="text-2xl font-bold text-gray-800 mb-4 md:text-3xl">
           Food Chemistry Topics
         </h2>
