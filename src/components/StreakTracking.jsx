@@ -4,7 +4,7 @@ function StreakTracking() {
   return (
     <div className="relative">
       <div
-        className="flex flex-col items-center justify-center px-2 py-4 md:px-4 md:py-6 lg:px-8 lg:py-10"
+        className="flex flex-col-reverse items-center justify-center px-2 py-4 md:px-4 md:py-6 lg:px-8 lg:py-10"
         style={{ backgroundColor: "#f8f9fa" }}
       >
         <div className="flex flex-col md:flex-row items-start justify-between max-w-screen-xl mx-auto space-y-6 md:space-y-0">
