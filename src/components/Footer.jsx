@@ -16,7 +16,7 @@ const Footer = () => {
               </h1>
             </Link>
             <p className="text-sm leading-6 text-gray-600">
-              Making Food Tech look better to the world
+              Making Food Tech look better to the world !
             </p>
           </div>
           <div className="md:col-span-2">
