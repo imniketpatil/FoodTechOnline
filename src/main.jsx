@@ -8,6 +8,7 @@ import RefundCancellationPolicy from "./pages/RefundCancellationPolicy";
 import TermsOfUse from "./pages/TermsOfUse";
 import DisclaimerPage from "./pages/DisclaimerPage";
 import PageNotFound from "./components/PageNotFound";
+import ShippingandDeliveryPolicy from "./pages/ShippingandDeliveryPolicy";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/shippinganddeliverypolicy",
-    element: <PageNotFound />,
+    element: <ShippingandDeliveryPolicy />,
   },
 ]);
 createRoot(document.getElementById("root")).render(
