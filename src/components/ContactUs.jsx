@@ -171,7 +171,7 @@ export default function ContactUs() {
       </form>
       {show && (
         <div className="w-full fixed flex justify-center items-center top-0 left-0 bg-black h-full opacity-70 z-50">
-          <div className=" bg-white rounded-lg z-50">
+          <div className=" rounded-lg z-50 ">
             <div className="flex items-center justify-center  bg-white rounded-lg ">
               <Alert
                 color="success"
