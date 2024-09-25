@@ -11,9 +11,9 @@ import Footer from "../components/Footer";
 import ContactUs from "../components/ContactUs";
 
 function Home() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <>
       <NavBar />
