@@ -68,7 +68,11 @@ const Footer = () => {
                   <li>
                     <a href="tel:+917020968581">+917020968581</a>
                   </li>
-                  <li> Address: Nagbhid, Chandrapur, 441205</li>
+                  <li>
+                    {" "}
+                    Address: Nagbhid, Chandrapur, Maharashtra, India. <br /> PIN
+                    : 441205
+                  </li>
                 </ul>
               </div>
             </div>
