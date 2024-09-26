@@ -61,6 +61,9 @@ const Footer = () => {
                 <p className="text-base font-semibold text-gray-900">Support</p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li>
+                    <p>Aditya Suryabhan Ghyar</p>
+                  </li>
+                  <li>
                     <a href="mailto:foodtechonline2022@gmail.com">
                       foodtechonline2022@gmail.com
                     </a>
